@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: finishwall
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"finish_wall","summary":"Finish
+      the wall and copy to wall_tiles","pan":{"x":26.0,"y":-7.918198},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-419.0,"y":-148.0},"guid":"5d75aa05-ad17-4bdb-a0bc-3b8144e0a92d","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-415.0,"y":103.0},"guid":"db41f7e2-d87c-40ac-9f5e-8485d33de3c9","$version":"A","$type":"Unity.VisualScripting.Update"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"walldone","$type":"System.String"}},"position":{"x":-420.0,"y":-37.0},"guid":"3a3af5a8-5c47-4a0b-bd98-f74c031f9d51","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"13"},{"chainable":false,"member":{"name":"SetTiles","parameterTypes":["UnityEngine.Vector3Int[]","UnityEngine.Tilemaps.TileBase[]"],"targetType":"UnityEngine.Tilemaps.Tilemap","targetTypeName":"UnityEngine.Tilemaps.Tilemap","$version":"A"},"defaultValues":{"target":null},"position":{"x":-40.0,"y":-66.0},"guid":"d6bde1e5-c3d6-4ed1-8ea0-8dd900171d6a","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"15"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"position_list","$type":"System.String"}},"position":{"x":-251.0,"y":92.0},"guid":"b3d271fe-7ac5-4015-889e-55f8498c222e","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"tile_array","$type":"System.String"},"object":null},"position":{"x":-69.0,"y":132.0},"guid":"759e94d2-a934-42bf-accc-37ad8104602e","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"20"},{"chainable":false,"member":{"name":"ClearAllTiles","parameterTypes":[],"targetType":"UnityEngine.Tilemaps.Tilemap","targetTypeName":"UnityEngine.Tilemaps.Tilemap","$version":"A"},"defaultValues":{"target":null},"position":{"x":340.0,"y":-63.0},"guid":"120e7f39-f673-40ab-abe8-6d7a5dfba7cd","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"22"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"2f5ab04c-9f4e-4d83-82e3-54a2222a5731","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"exit","destinationUnit":{"$ref":"22"},"destinationKey":"enter","guid":"ad012b9a-8919-4055-a066-36c8749212db","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"%positionArray","guid":"ec7a17e3-b575-44b3-a482-e4b509eef687","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"%tileArray","guid":"38fa0e26-402e-4144-a77d-48e28aa41992","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

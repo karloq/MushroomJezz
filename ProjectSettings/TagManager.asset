@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Border
+  - Wall
+  - Hit
+  - Field
+  - Walkable
+  - Pointer
+  - TempWall
+  - Ball
+  - Pointscanvas
+  - Fail
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ball
+  - Border
+  - Wall
+  - Hit
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1162476689
+    locked: 0
+  - name: Foreground
+    uniqueID: 1703977907
+    locked: 0
+  - name: Player
+    uniqueID: 232759019
+    locked: 0
